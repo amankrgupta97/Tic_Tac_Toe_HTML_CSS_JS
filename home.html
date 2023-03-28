@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TicTacToe Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav><span>Tic Tac Toe Game</span></nav>
+    <div class="game-container">
+      <div class="game-board">
+        <div class="box br bb"><span class="box-marker"></span></div>
+        <div class="box br bb"><span class="box-marker"></span></div>
+        <div class="box bb"><span class="box-marker"></span></div>
+        <div class="box br bb"><span class="box-marker"></span></div>
+        <div class="box br bb"><span class="box-marker"></span></div>
+        <div class="box bb"><span class="box-marker"></span></div>
+        <div class="box br"><span class="box-marker"></span></div>
+        <div class="box br"><span class="box-marker"></span></div>
+        <div class="box"><span class="box-marker"></span></div>
+      </div>
+      <div class="game-info">
+        <div class="welcome-text">
+          <span>Welcome to tic tac toe game</span>
+        </div>
+        <div class="player-info">
+          <span class="turn-info">Turn of X</span>
+          <button id="reset">Reset</button>
+        </div>
+        <div class="win-img">
+          <img src="winner.gif" />
+        </div>
+      </div>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
